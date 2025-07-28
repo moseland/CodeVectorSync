@@ -1,0 +1,4 @@
+requests
+chromadb
+sentence-transformers
+watchdog
