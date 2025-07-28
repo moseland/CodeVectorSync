@@ -11,11 +11,12 @@ CodeVectorSync monitors your specified project directories, processes files (lik
 ---
 
 ## Features
-- ✔️ Recursive indexing of any local directory  
-- ✔️ Fast semantic search over functions, classes, comments and docs  
-- ✔️ Q&A via retrieval-augmented generation (RAG) with OpenAI GPT  
-- ✔️ Zero-config defaults, but fully customizable with `.env`  
-- ✔️ Easy to extend: switch embedding models, chunking strategies, etc.
+- Automatic Synchronization: Uses watchdog to monitor your project directories for changes.
+- Intelligent Ingestion: Only processes new or modified files, saving time and resources.
+- Local Embedding: Generates vector embeddings using the all-MiniLM-L6-v2 SentenceTransformer model locally, so your code doesn't leave your machine for embedding generation.
+- ChromaDB Integration: Seamlessly connects to your self-hosted or remote ChromaDB instance to store and manage code embeddings.
+- Metadata Rich: Stores useful metadata like file_path, project_name, language, and chunk_id for powerful filtering and retrieval.
+- Cleanup Utilities: Includes scripts to clear your ChromaDB collection or view its current statistics.
 
 ## Getting Started
 Prerequisites
