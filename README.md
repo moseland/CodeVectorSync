@@ -1,7 +1,7 @@
 
 # CodeVectorSync
 
-> 🚧 Active-hobby code—expect the occasional bug.
+> 🚧 Active-hobby code—expect the occasional bug.\
 > Found one? Open an issue or PR!
 
 This project helps you keep your local code and documentation synchronized with a ChromaDB vector store. Making it possible to easily ask AI questions about your codebase, find related functions across projects, or even get context-aware suggestions directly from your own files.
@@ -19,9 +19,9 @@ CodeVectorSync monitors your specified project directories, processes files (lik
 - Cleanup Utilities: Includes scripts to clear your ChromaDB collection or view its current statistics.
 
 ## Getting Started
-Prerequisites
-Python 3.8+
-A running ChromaDB instance (local or remote).
+Prerequisites\
+Python 3.8+\
+A running ChromaDB instance (local or remote).\
 
 ### Clone the repository
 ```bash
