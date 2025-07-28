@@ -27,10 +27,12 @@ A running ChromaDB instance (local or remote).\
 ```bash
 git clone https://github.com/moseland/CodeVectorSync.git
 cd CodeVectorSync
+```
 
 ### Install dependencies
 ```bash
 pip install -r requirements.txt
+```
 
 ### Update Configuration
 Open ingest.py and modify the following variables to match your setup:
@@ -51,6 +53,7 @@ This will perform an initial scan of your configured directories and then start 
 
 ```bash
 python ingest.py
+```
 
 Keep this script running in the background.
 
@@ -59,12 +62,14 @@ To see what's currently in your ChromaDB collection and get counts per project:
 
 ```bash
 python stats.py
+```
 
 Clear the ChromaDB Collection (Use with Caution!):
 If you want to completely wipe your code_knowledge_base collection (e.g., to start fresh), run:
 
 ```bash
 python clear.py
+```
 
 WARNING: This action is irreversible and will delete all embeddings in the specified collection.
 
